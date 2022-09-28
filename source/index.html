@@ -14,9 +14,9 @@
         <nav class="main-nav">
           <div class="main-nav__logo-wrapper">
             <a href="" class="main-nav__logo-link">
-              <img src="" alt="" class="main-nav__logo-img">
+              <img src="./img/svg/logo.svg" alt="логотип" class="main-nav__logo-img">
             </a>
-            <div class="main-nav__logo-wrapper">
+            <div class="main-nav__logo-info-wrapper">
               <h1>Smart Device</h1>
               <p>умные технологии</p>
             </div>
@@ -24,49 +24,50 @@
           <div class="main-nav__info-wrapper">
             <ul class="main-nav__info-list">
               <li class="main-nav__info-item">
-                <a href="" class="main-nav__info-link">
-                  <svg class="main-nav__info-image" width="" height="">
-                    <use xlink:href="img/sprite_auto.svg#"></use>
+                <a href="#">
+                  <svg class="main-nav__info-image" width="20" height="20">
+                    <use xlink:href="img/sprite_auto.svg#letter"></use>
                   </svg>
-                  <p class="main-nav__info-text">info@sd.ru</p>
+                  <p>info@sd.ru</p>
                 </a>
               </li>
               <li class="main-nav__info-item">
-                <a href="" class="main-nav__info-link">
-                  <svg class="main-nav__info-image" width="" height="">
-                    <use xlink:href="img/sprite_auto.svg#"></use>
+                <a href="#">
+                  <svg class="main-nav__info-image" width="20" height="20">
+                    <use xlink:href="img/sprite_auto.svg#telefone"></use>
                   </svg>
-                  <p class="main-nav__info-text">+7 (495) 000 52 52</p>
+                  <p>+7 (495) 000 52 52</p>
                 </a>
               </li>
             </ul>
           </div>
-          <button class="main-nav__button" type="button">Заказать звонок</button>
+          <button class="main-nav__btn" type="button">Заказать звонок</button>
         </nav>
         <div class="page-header__info">
           <h1>Печатные платы</h1>
           <p>
             производство и монтаж, поставка комплектующих, блоков и модулей</p>
           <a>
-            Получить бесплатную консультацию</a>
+            Получить бесплатную консультацию
+          </a>
         </div>
       </div>
     </header>
     <main class="page-main">
       <div class="page-main__wrapper">
-        <section class="benefist-and-info">
+        <section class="benefits-and-info">
           <div class="benefits">
             <div class="benefits__card">
               <svg class="benefits__card-image" width="" height="">
-                <use xlink:href="img/sprite_auto.svg#"></use>
+                <use xlink:href="img/sprite_auto.svg#stopwatch"></use>
               </svg>
-              <h3">Оперативные сроки</h3>
-              <p">
+              <h3>Оперативные сроки</h3>
+              <p>
                 Усовершенствованная логистическая система позволяет нам просчитывать стоимость, производить и доставлять заказы плат и комплектующих в самые короткие сроки</p>
             </div>
             <div class="benefits__card">
               <svg class="benefits__card-image" width="" height="">
-                <use xlink:href="img/sprite_auto.svg#"></use>
+                <use xlink:href="img/sprite_auto.svg#hired"></use>
               </svg>
               <h3>Крупные поставщики</h3>
               <p>
@@ -75,7 +76,7 @@
             </div>
             <div class="benefits__card">
               <svg class="benefits__card-image" width="" height="">
-                <use xlink:href="img/sprite_auto.svg#"></use>
+                <use xlink:href="img/sprite_auto.svg#detective"></use>
               </svg>
               <h3>Полная конфиденциальность</h3>
               <p>
@@ -84,7 +85,7 @@
             </div>
             <div class="benefits__card">
               <svg class="benefits__card-image" width="" height="">
-                <use xlink:href="img/sprite_auto.svg#"></use>
+                <use xlink:href="img/sprite_auto.svg#tag"></use>
               </svg>
               <h3>Персонализация стоимости</h3>
               <p>
@@ -93,7 +94,7 @@
             </div>
           </div>
           <div class="info">
-            <img class="info-image" src="" alt="">
+            <img class="info__image" src="" alt="">
             <div class="info__wrapper">
               <h2>О компании</h2>
               <p>
@@ -108,7 +109,7 @@
               <p class="info__text--hidden visually-hidden">
                 Мы стремимся к постоянному развитию и повышению уровня качества продукции, производимой внутри компании. Использование инновационных технологий помогает экономить деньги и время наших клиентов
               </p>
-              <button type="submit" class="info__button">Подробнее</button>
+              <button type="submit" class="info__btn">Подробнее</button>
             </div>
           </div>
         </section>
@@ -116,40 +117,46 @@
           <h2>Smart Device предлагает следующие товары и услуги</h2>
           <div class="products-and-service__wrapper">
             <ul class="products-and-service__list">
-              <li class="products-and-service__list">
-                <a href="#" class="products-and-service__link products-and-service__link--1">
-                  <p">
-                    Производство печатных плат
-                  </pclass=>
-                  <button class="products-and-service__link-button">
-                    <svg class="products-and-service__link--image" width="" height="">
-                      <use xlink:href="img/sprite_auto.svg#"></use>
-                    </svg>
-                  </button>
+              <li class="products-and-service__item">
+                <a href="#" class="products-and-service__link">
+                  <div class="products-and-service__card products-and-service__card--1">
+                    <p>
+                      Производство печатных плат
+                    </p>
+                    <button class="products-and-service__link-button">
+                      <svg class="products-and-service__link--image" width="2.5" height="5">
+                        <use xlink:href="img/sprite_auto.svg#btn_arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
                 </a>
               </li>
-              <li class="products-and-service__list">
-                <a href="#" class="products-and-service__link products-and-service__link--2">
-                  <p>
-                    Монтаж печатных плат
-                  </pclass=>
-                  <button class="products-and-service__link-button">
-                    <svg class="products-and-service__link--image" width="" height="">
-                      <use xlink:href="img/sprite_auto.svg#"></use>
-                    </svg>
-                  </button>
+              <li class="products-and-service__item">
+                <a href="#" class="products-and-service__link">
+                  <div class="products-and-service__card products-and-service__card--2">
+                    <p>
+                      Монтаж печатных плат
+                    </p>
+                    <button class="products-and-service__link-button">
+                      <svg class="products-and-service__link--image" width="2.5" height="5">
+                        <use xlink:href="img/sprite_auto.svg#btn_arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
                 </a>
               </li>
-              <li class="products-and-service__list">
-                <a href="#" class="products-and-service__link products-and-service__link--3">
-                  <p>
-                    Комплектующие для светотехники
-                  </p>
-                  <button class="products-and-service__link-button">
-                    <svg class="products-and-service__link--image" width="" height="">
-                      <use xlink:href="img/sprite_auto.svg#"></use>
-                    </svg>
-                  </button>
+              <li class="products-and-service__item">
+                <a href="#" class="products-and-service__link">
+                  <div class="products-and-service__card products-and-service__card--3">
+                    <p>
+                      Комплектующие для светотехники
+                    </p>
+                    <button class="products-and-service__link-button">
+                      <svg class="products-and-service__link--image" width="2.5" height="5">
+                        <use xlink:href="img/sprite_auto.svg#btn_arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
                 </a>
               </li>
             </ul>

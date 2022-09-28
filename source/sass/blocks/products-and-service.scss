@@ -1,0 +1,98 @@
+.products-and-service {
+  display: flex;
+  flex-direction: column;
+  background-color: #041827;
+  color: #ffffff;
+  padding: 0 25px;
+}
+
+.products-and-service h2 {
+  width: 270px;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  min-height: 64px;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140.62%;
+}
+
+.products-and-service__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 0;
+  color: #ffffff;
+}
+
+.products-and-service__item {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.products-and-service__link {
+  display: block;
+  min-width: 270px;
+  height: 250px;
+}
+
+.products-and-service__card {
+  position: relative;
+  min-width: 270px;
+  height: 250px;
+}
+
+.products-and-service__card--1 {
+  background-image: url('/source/img/card-1_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products-and-service__card--2 {
+  background-image: url('/source/img/card-2_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products-and-service__card--3 {
+  background-image: url('/source/img/card-3_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products-and-service__link p {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 30px;
+  top: 30px;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.products-and-service__link button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 230px;
+  top: 210px;
+  background-color: #00B2FF;
+  border-radius: 3px 0px 0px 0px;
+  border: 0;
+}

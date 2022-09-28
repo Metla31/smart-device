@@ -1,0 +1,46 @@
+.benefits__card {
+  min-width: 270px;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #EBEBEB;
+  border-left: 5px solid #00B2FF;
+  padding-left: 25px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.benefits__card:hover {
+  background-color: #00B2FF;
+}
+
+.benefits__card-image {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.benefits__card h3 {
+  width: 210px;
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #00B2FF;
+}
+
+.benefits__card p {
+  width: 210px;
+  margin: 0;
+  font-family: 'PT Mono', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #041827;
+}
