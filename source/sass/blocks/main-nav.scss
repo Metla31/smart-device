@@ -28,6 +28,33 @@
   display: none;
 }
 
+.main-nav__logo-info-wrapper h1 {
+  margin: 0;
+  width: 145px;
+  height: 25px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #F2F5F7;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.main-nav__logo-info-wrapper p {
+  margin: 0;
+  width: 110px;
+  height: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(248, 253, 255, 0.7);
+  margin-bottom: 5px;
+}
+
 .main-nav__info-list {
   display: flex;
   flex-direction: row;
@@ -55,4 +82,20 @@
 
 .main-nav__btn {
   display: none;
+}
+
+@media (min-width: $vp-768) {
+  .main-nav {
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 70px;
+  }
+
+  .main-nav__logo-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 15px;
+  }
 }

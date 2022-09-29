@@ -21,3 +21,19 @@
   justify-content: flex-start;
   margin-top: 50px;
 }
+
+@media (min-width: $vp-768) {
+  .benefits-and-info {
+    padding: 0 50px;
+  }
+
+  .benefits {
+    height: 715px;
+    margin-top: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 25px;
+    margin-bottom: 80px;
+  }
+}

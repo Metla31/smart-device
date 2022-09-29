@@ -1,4 +1,5 @@
 .products-and-service {
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #041827;
@@ -7,7 +8,7 @@
 }
 
 .products-and-service h2 {
-  width: 270px;
+  min-width: 270px;
   margin: 0;
   margin-top: 50px;
   margin-bottom: 40px;
@@ -49,21 +50,21 @@
 }
 
 .products-and-service__card--1 {
-  background-image: url('/source/img/card-1_bg.jpg');
+  background-image: url('/img/card-1_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .products-and-service__card--2 {
-  background-image: url('/source/img/card-2_bg.jpg');
+  background-image: url('/img/card-2_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .products-and-service__card--3 {
-  background-image: url('/source/img/card-3_bg.jpg');
+  background-image: url('/img/card-3_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -96,3 +97,7 @@
   border-radius: 3px 0px 0px 0px;
   border: 0;
 }
+
+// @media (min-width: $vp-768) {
+
+// }
