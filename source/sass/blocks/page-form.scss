@@ -10,3 +10,9 @@
   margin: 0 auto;
   padding: 0 25px;
 }
+
+@media (min-width: $vp-768) {
+  .page-form__wrapper {
+    padding: 0 50px;
+  }
+}

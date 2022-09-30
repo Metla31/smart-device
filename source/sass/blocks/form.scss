@@ -83,7 +83,7 @@
   background: #041427;
   border-radius: 3px;
   border: 0;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -140,7 +140,7 @@
 .form__checkbox-text {
   width: 230px;
   height: 30px;
-  font-family: 'PT Mono';
+  font-family: 'PT Mono', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -149,3 +149,20 @@
   opacity: 0.8;
 }
 
+@media (min-width: $vp-768) {
+  .form h2 {
+    font-size: 36px;
+    line-height: 51px;
+  }
+
+  .form p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .form__container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr , 1fr, 1fr;
+  }
+}

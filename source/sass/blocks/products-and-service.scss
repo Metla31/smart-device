@@ -98,6 +98,31 @@
   border: 0;
 }
 
-// @media (min-width: $vp-768) {
+@media (min-width: $vp-768) {
+  .products-and-service h2 {
+    min-width: 670px;
+    font-size: 36px;
+    line-height: 51px;
+  }
 
-// }
+  .products-and-service__card {
+    min-width: 670px;
+  }
+
+  .products-and-service__link p {
+    font-size: 20px;
+  }
+
+  .products-and-service__link button {
+    width: 60px;
+    height: 60px;
+    left: 610px;
+    top: 190px;
+  }
+
+  .products-and-service__link--image {
+    display: flex;
+    width: 4px;
+    height: 8px;
+  }
+}
