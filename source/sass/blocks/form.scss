@@ -32,9 +32,13 @@
   color: #FFFFFF;
 }
 
+.form label {
+  width: 100%;
+}
+
 .form input[type="text"],
 .form input[type="tel"] {
-  min-width: 270px;
+  width: 100%;
   height: 50px;
   background-color: rgba(4, 20, 39, 0.15);
   border-radius: 3px;
@@ -54,7 +58,7 @@
 }
 
 .form textarea {
-  min-width: 270px;
+  width: 100%;
   min-height: 180px;
   background-color: rgba(4, 20, 39, 0.15);
   border-radius: 3px;
@@ -150,6 +154,12 @@
 }
 
 @media (min-width: $vp-768) {
+  .form__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .form h2 {
     font-size: 36px;
     line-height: 51px;
@@ -160,9 +170,24 @@
     line-height: 22px;
   }
 
-  .form__container {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr , 1fr, 1fr;
+  .form__input-wrapper {
+    display: flex;
+    gap: 30px;
+  }
+
+  .form input[type="text"],
+  .form input[type="tel"] {
+    min-width: 270px;
+  }
+
+  .form textarea {
+    width: 100%;
+  }
+
+  .form__btn-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 85px;
   }
 }

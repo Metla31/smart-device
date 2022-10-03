@@ -166,25 +166,31 @@
           <div class="page-form__wrapper">
             <img class="page-form__image" src="./img/paper_airplan.png" alt="paper_airplan">
             <form action="" class="pager-form form">
-              <h2>Остались вопросы? Задайте их нам!</h2>
-              <p>Мы проконсультируем Вас бесплатно</p>
+              <div class="form__info-wrapper">
+                <h2>Остались вопросы? Задайте их нам!</h2>
+                <p>Мы проконсультируем Вас бесплатно</p>
+              </div>
               <div class="form__container">
-                <label for="name">
-                  <span class="visually-hidden">Имя</span>
-                  <input id="name" type="text" placeholder="Имя">
-                </label>
-                <label for="tel">
-                  <span class="visually-hidden">Телефон</span>
-                  <input id="tel" type="tel" placeholder="Телефон">
-                </label>
-                <textarea name="question" placeholder="Ваш вопрос" id="question" cols="30" rows="10" ></textarea>
-                <button type="submit">Задать вопрос</button>
-                <div class="form__checkbox-wrapper">
-                  <label for="agreement" class="form__label-checkbox">
-                    <input class="form__input-checkbox visually-hidden" type="checkbox" id="agreement" name="Согласие" value="agreement" checked>
-                    <span class="form__checkbox"></span>
-                    <span class="form__checkbox-text">Я&nbsp;согласен на&nbsp;обработку персональных данных</span>
+                <div class="form__input-wrapper">
+                  <label for="name">
+                    <span class="visually-hidden">Имя</span>
+                    <input id="name" type="text" placeholder="Имя">
                   </label>
+                  <label for="tel">
+                    <span class="visually-hidden">Телефон</span>
+                    <input id="tel" type="tel" placeholder="Телефон">
+                  </label>
+                </div>
+                <textarea name="question" placeholder="Ваш вопрос" id="question" cols="30" rows="10" ></textarea>
+                <div class="form__btn-wrapper">
+                  <button type="submit">Задать вопрос</button>
+                  <div class="form__checkbox-wrapper">
+                    <label for="agreement" class="form__label-checkbox">
+                      <input class="form__input-checkbox visually-hidden" type="checkbox" id="agreement" name="Согласие" value="agreement" checked>
+                      <span class="form__checkbox"></span>
+                      <span class="form__checkbox-text">Я&nbsp;согласен на&nbsp;обработку персональных данных</span>
+                    </label>
+                  </div>
                 </div>
               </div>
             </form>

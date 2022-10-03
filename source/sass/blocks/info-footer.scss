@@ -9,7 +9,6 @@
 
 .info-footer__links {
   display: block;
-  padding: 0 25px;
 }
 
 .info-footer__links h4 {
@@ -82,4 +81,33 @@
   font-size: 14px;
   line-height: 135%;
   color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: $vp-768) {
+  .info-footer {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 0;
+  }
+
+  .info-footer__links h4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .info-footer__accordion {
+    display: none;
+  }
+
+  .info-footer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+  }
 }
