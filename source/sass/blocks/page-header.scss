@@ -94,3 +94,16 @@
     height: 55px;
   }
 }
+
+@media (min-width: $vp-1024) {
+  .page-header__info {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .page-header__info h1 {
+    min-width: 720px;
+    font-size: 80px;
+    line-height: 94px;
+  }
+}

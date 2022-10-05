@@ -816,6 +816,7 @@ button,
   justify-content: flex-end;
   height: 100%;
   list-style: none;
+  padding: 0;
 }
 
 .main-nav__info-item:first-child {
@@ -1962,6 +1963,120 @@ button,
     -ms-flex-pack: start;
     justify-content: flex-start;
     padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-header__info {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .page-header__info h1 {
+    min-width: 720px;
+    font-size: 80px;
+    line-height: 94px;
+  }
+
+  .main-nav {
+    height: 120px;
+  }
+
+  .main-nav__wrapper {
+    width: 1024px;
+  }
+
+  .main-nav__logo-link {
+    width: 55px;
+    height: 55px;
+  }
+
+  .main-nav__logo-info-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .main-nav__logo-info-wrapper h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #F2F5F7;
+  }
+
+  .main-nav__logo-info-wrapper p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .main-nav__info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 225px;
+    height: 20px;
+  }
+
+  .main-nav__info-item a {
+    width: 225px;
+    height: 20px;
+  }
+
+  .main-nav__info-item p {
+    display: block;
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F2F5F7;
+    margin-left: 15px;
+  }
+
+  .main-nav__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #F2F5F7;
+    border-radius: 3px;
+    background-color: inherit;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #F2F5F7;
+  }
+
+  .page-main__wrapper {
+    width: 1024px;
   }
 }
 
