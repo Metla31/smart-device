@@ -946,7 +946,7 @@ button,
 }
 
 .benefits__card h3 {
-  width: 210px;
+  min-width: 210px;
   margin: 0;
   margin-bottom: 15px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
@@ -964,7 +964,7 @@ button,
 }
 
 .benefits__card p {
-  width: 210px;
+  min-width: 210px;
   margin: 0;
   font-family: 'PT Mono', 'Arial', sans-serif;
   font-style: normal;
@@ -1093,13 +1093,13 @@ button,
 
 .products-and-service__link {
   display: block;
-  min-width: 270px;
+  width: 270px;
   height: 250px;
 }
 
 .products-and-service__card {
   position: relative;
-  min-width: 270px;
+  width: 270px;
   height: 250px;
 }
 
@@ -1767,13 +1767,13 @@ button,
   }
 
   .benefits__card h3 {
-    width: 230px;
+    min-width: 230px;
     font-size: 24px;
     line-height: 34px;
   }
 
   .benefits__card p {
-    width: 245px;
+    min-width: 245px;
     font-size: 16px;
     line-height: 135%;
   }
@@ -1826,7 +1826,7 @@ button,
   }
 
   .products-and-service__card {
-    min-width: 670px;
+    width: 670px;
   }
 
   .products-and-service__link p {
@@ -2074,9 +2074,105 @@ button,
     text-transform: uppercase;
     color: #F2F5F7;
   }
+}
 
-  .page-main__wrapper {
-    width: 1024px;
+@media (min-width: 1920px) {
+  .benefits-and-info {
+    padding: 0 350px;
+  }
+
+  .benefits__card {
+    width: 595px;
+    min-height: 300px;
+  }
+
+  .benefits__card p {
+    padding-right: 45px;
+  }
+
+  .products-and-service {
+    z-index: 2;
+  }
+
+  .products-and-service h2 {
+    min-width: 800px;
+  }
+
+  .products-and-service__list {
+    width: 1220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .products-and-service__item {
+    width: 350px;
+    height: 650px;
+  }
+
+  .products-and-service__item a {
+    width: 350px;
+    height: 650px;
+  }
+
+  .products-and-service__card {
+    width: 350px;
+    height: 650px;
+  }
+
+  .products-and-service__link button {
+    left: 290px;
+    top: 590px;
+  }
+
+  .page-form {
+    position: relative;
+  }
+
+  .page-form::before {
+    content: '';
+    display: block;
+    width: 1000px;
+    height: 800px;
+    background: rgba(4, 24, 39, 0.5);
+    -webkit-transform: rotate(-53.1deg);
+    -ms-transform: rotate(-53.1deg);
+    transform: rotate(-53.1deg);
+    position: absolute;
+    left: -446px;
+    bottom: 100px;
+  }
+
+  .page-form__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 120px;
+  }
+
+  .page-form__image {
+    width: 510px;
+    height: 285px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1;
   }
 }
 

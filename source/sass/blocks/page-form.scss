@@ -17,3 +17,37 @@
     padding: 0 50px;
   }
 }
+
+@media (min-width: $vp-1920) {
+  .page-form {
+    position: relative;
+  }
+
+  .page-form::before {
+    content: '';
+    display: block;
+    width: 1000px;
+    height: 800px;
+    background: rgba(4, 24, 39, 0.5);
+    transform: rotate(-53.1deg);
+    position: absolute;
+    left: -446px;
+    bottom: 100px;
+  }
+
+  .page-form__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+  }
+
+  .page-form__image {
+    width: 510px;
+    height: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+}

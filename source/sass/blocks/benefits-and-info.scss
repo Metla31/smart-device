@@ -37,3 +37,9 @@
     margin-bottom: 80px;
   }
 }
+
+@media (min-width: $vp-1920) {
+  .benefits-and-info {
+    padding: 0 350px;
+  }
+}

@@ -39,13 +39,13 @@
 
 .products-and-service__link {
   display: block;
-  min-width: 270px;
+  width: 270px;
   height: 250px;
 }
 
 .products-and-service__card {
   position: relative;
-  min-width: 270px;
+  width: 270px;
   height: 250px;
 }
 
@@ -106,7 +106,7 @@
   }
 
   .products-and-service__card {
-    min-width: 670px;
+    width: 670px;
   }
 
   .products-and-service__link p {
@@ -125,4 +125,41 @@
     width: 4px;
     height: 8px;
   }
+}
+
+@media (min-width: $vp-1920) {
+  .products-and-service {
+    z-index: 2;
+  }
+
+  .products-and-service h2 {
+    min-width: 800px;
+  }
+
+  .products-and-service__list {
+    width: 1220px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .products-and-service__item {
+    width: 350px;
+    height: 650px;
+  }
+
+  .products-and-service__item  a {
+    width: 350px;
+    height: 650px;
+  }
+
+  .products-and-service__card {
+    width: 350px;
+    height: 650px;
+  }
+
+  .products-and-service__link button {
+    left: 290px;
+    top: 590px;
+  }
+
 }

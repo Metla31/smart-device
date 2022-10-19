@@ -25,7 +25,7 @@
 }
 
 .benefits__card h3 {
-  width: 210px;
+  min-width: 210px;
   margin: 0;
   margin-bottom: 15px;
   font-family: 'Roboto Condensed', 'Arial', sans-serif;
@@ -39,7 +39,7 @@
 }
 
 .benefits__card p {
-  width: 210px;
+  min-width: 210px;
   margin: 0;
   font-family: 'PT Mono', 'Arial', sans-serif;
   font-style: normal;
@@ -57,14 +57,25 @@
   }
 
   .benefits__card h3 {
-    width: 230px;
+    min-width: 230px;
     font-size: 24px;
     line-height: 34px;
   }
 
   .benefits__card p {
-    width: 245px;
+    min-width: 245px;
     font-size: 16px;
     line-height: 135%;
+  }
+}
+
+@media (min-width: $vp-1920) {
+  .benefits__card {
+    width: 595px;
+    min-height: 300px;
+  }
+
+  .benefits__card p {
+    padding-right: 45px;
   }
 }
