@@ -2098,6 +2098,7 @@ button,
 
   .products-and-service h2 {
     min-width: 800px;
+    margin-left: 330px;
   }
 
   .products-and-service__list {
@@ -2141,11 +2142,11 @@ button,
     width: 1000px;
     height: 800px;
     background: rgba(4, 24, 39, 0.5);
-    -webkit-transform: rotate(-53.1deg);
-    -ms-transform: rotate(-53.1deg);
-    transform: rotate(-53.1deg);
+    -webkit-transform: rotate(-50.1deg);
+    -ms-transform: rotate(-50.1deg);
+    transform: rotate(-50.1deg);
     position: absolute;
-    left: -446px;
+    left: -317px;
     bottom: 100px;
   }
 
@@ -2181,6 +2182,54 @@ button,
 @media (min-width: 1920px) {
   .benefits-and-info {
     padding: 0 350px;
+  }
+
+  .page-footer__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0 350px;
+    height: 280px;
+  }
+
+  .social {
+    width: 255px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .info-footer {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .info-footer__list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 30px;
+  }
+
+  .info-footer__list--sections {
+    width: 470px;
+    height: 130px;
+  }
+
+  .info-footer__item {
+    width: 220px;
+  }
+
+  .info-footer__item a {
+    font-size: 16px;
   }
 }
 

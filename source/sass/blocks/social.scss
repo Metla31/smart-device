@@ -77,3 +77,11 @@
     padding: 0 50px;
   }
 }
+
+@media (min-width: $vp-1920) {
+  .social {
+    width: 255px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

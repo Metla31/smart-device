@@ -9,3 +9,11 @@
   justify-content: flex-start;
   padding: 0 25px;
 }
+
+@media (min-width: $vp-1920) {
+  .page-footer__wrapper {
+    flex-direction: row;
+    padding: 0 350px;
+    height: 280px;
+  }
+}
