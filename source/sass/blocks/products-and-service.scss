@@ -105,6 +105,10 @@
     line-height: 51px;
   }
 
+  .products-and-service__link {
+    width: 670px;
+  }
+
   .products-and-service__card {
     width: 670px;
   }
@@ -127,7 +131,7 @@
   }
 }
 
-@media (min-width: $vp-1920) {
+@media (min-width: $vp-1440) {
   .products-and-service {
     z-index: 2;
   }
@@ -147,7 +151,7 @@
     height: 650px;
   }
 
-  .products-and-service__item  a {
+  .products-and-service__link {
     width: 350px;
     height: 650px;
   }

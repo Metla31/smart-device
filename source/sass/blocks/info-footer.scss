@@ -58,8 +58,16 @@
   left: calc(100% - 45px);
 }
 
-.accordion-active::before {
-  content: "\2796";
+// .info-footer__accordion--active .info-footer__list {
+//   display: flex;
+// }
+
+// .info-footer__accordion--active h4 {
+//   display: none;
+// }
+
+.info-footer__accordion--active::before {
+  content: "\2796"; /* Unicode character for "plus" sign (-) */
   position: absolute;
   left: calc(100% - 45px);
 }

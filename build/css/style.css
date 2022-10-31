@@ -1647,8 +1647,9 @@ button,
   left: calc(100% - 45px);
 }
 
-.accordion-active::before {
+.info-footer__accordion--active::before {
   content: "\2796";
+  /* Unicode character for "plus" sign (-) */
   position: absolute;
   left: calc(100% - 45px);
 }
@@ -1760,7 +1761,8 @@ button,
   }
 
   .benefits__card {
-    min-width: 320px;
+    width: 320px;
+    min-height: 360px;
     margin: 0;
     padding-top: 40px;
     padding-left: 41px;
@@ -1823,6 +1825,10 @@ button,
     min-width: 670px;
     font-size: 36px;
     line-height: 51px;
+  }
+
+  .products-and-service__link {
+    width: 670px;
   }
 
   .products-and-service__card {
@@ -2076,11 +2082,7 @@ button,
   }
 }
 
-@media (min-width: 1920px) {
-  .benefits-and-info {
-    padding: 0 350px;
-  }
-
+@media (min-width: 1440px) {
   .benefits__card {
     width: 595px;
     min-height: 300px;
@@ -2114,7 +2116,7 @@ button,
     height: 650px;
   }
 
-  .products-and-service__item a {
+  .products-and-service__link {
     width: 350px;
     height: 650px;
   }
@@ -2173,6 +2175,12 @@ button,
     -ms-flex-pack: center;
     justify-content: center;
     z-index: 1;
+  }
+}
+
+@media (min-width: 1920px) {
+  .benefits-and-info {
+    padding: 0 350px;
   }
 }
 

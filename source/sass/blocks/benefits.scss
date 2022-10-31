@@ -50,7 +50,8 @@
 
 @media (min-width: $vp-768) {
   .benefits__card {
-    min-width: 320px;
+    width: 320px;
+    min-height: 360px;
     margin: 0;
     padding-top: 40px;
     padding-left: 41px;
@@ -69,7 +70,7 @@
   }
 }
 
-@media (min-width: $vp-1920) {
+@media (min-width: $vp-1440) {
   .benefits__card {
     width: 595px;
     min-height: 300px;
